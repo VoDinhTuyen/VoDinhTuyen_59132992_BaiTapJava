@@ -15,7 +15,13 @@ public class BaiTap3Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        SinhVienPoly sinhVienPoly = new SinhVienIT(8, 7, 7.5, "Nguyễn Văn A");
+        SinhVienIT sinhVienIT = new SinhVienIT(5, 7, 6, "Võ Đình Tuyên");
+        SinhVienBiz sinhVienBiz = new SinhVienBiz(9, 9.3, "Nguyễn Văn B");
+        sinhVienPoly.xuat();
+        sinhVienIT.xuat();
+        sinhVienBiz.xuat();
     }
     
 }
